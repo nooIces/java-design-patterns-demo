@@ -1,7 +1,6 @@
 package adapter;
 
 import adapter.classAdapter.DriveClassAdapter;
-import adapter.interfaceAdapter.DriveBMW;
 import adapter.interfaceAdapter.DriveInterfaceAdapter;
 import adapter.objAdapter.DriveObjAdapter;
 
