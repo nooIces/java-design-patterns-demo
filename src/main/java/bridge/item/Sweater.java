@@ -1,4 +1,4 @@
-package Bridge.item;
+package bridge.item;
 
 public class Sweater implements Clothes {
     @Override

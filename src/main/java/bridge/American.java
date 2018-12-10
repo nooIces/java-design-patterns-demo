@@ -1,6 +1,6 @@
-package Bridge;
+package bridge;
 
-import Bridge.item.Clothes;
+import bridge.item.Clothes;
 
 public class American extends People{
 

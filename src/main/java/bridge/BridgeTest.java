@@ -1,7 +1,7 @@
-package Bridge;
+package bridge;
 
-import Bridge.item.Coat;
-import Bridge.item.Sweater;
+import bridge.item.Coat;
+import bridge.item.Sweater;
 
 public class BridgeTest {
     public static void main(String[] args) {
