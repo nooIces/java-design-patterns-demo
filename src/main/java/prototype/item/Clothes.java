@@ -16,11 +16,11 @@ public abstract class Clothes implements Cloneable{
         return name;
     }
 
-    public Clothes clone(){
+    public Object clone(){
         System.out.println("克隆开始...");
-        Clothes clone = null;
+        Object clone = null;
         try{
-            clone = (Clothes) super.clone();
+            clone = super.clone();
             System.out.println("克隆结束...");
         }catch (CloneNotSupportedException e){
             e.printStackTrace();

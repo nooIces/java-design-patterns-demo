@@ -16,7 +16,7 @@ public class ClothesCache {
         map.put(clothes.getId(), clothes);
     }
 
-    public Clothes get(int id){
+    public Object get(int id){
         return map.get(id).clone();
     }
 }

@@ -12,11 +12,13 @@ public class PrototypeTest {
         cache.addCache(A);
         cache.addCache(B);
 
-        Clothes clothesA = cache.get(1);
+        Object objA = cache.get(1);
+        Clothes clothesA = (Clothes)objA;
         System.out.println(clothesA.getId() + " " + clothesA.getName());
         System.out.println("是否相同:" + (A == clothesA));
 
-        Clothes clothesB = cache.get(2);
+        Object objB = cache.get(2);
+        Clothes clothesB = (Clothes)objB;
         System.out.println(clothesB.getId() + " " + clothesB.getName());
         System.out.println("是否相同:" + (B == clothesB));
     }
