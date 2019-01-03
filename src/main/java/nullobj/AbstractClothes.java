@@ -1,4 +1,4 @@
-package nullObj;
+package nullobj;
 
 public abstract class AbstractClothes {
 
